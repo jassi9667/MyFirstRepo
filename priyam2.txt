@@ -1,0 +1,3 @@
+Writing using nano
+Now I will save this file and commit and push.
+And after that I will delete this file.

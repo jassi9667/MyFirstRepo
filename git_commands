@@ -1,0 +1,40 @@
+git_commands
+
+
+#%% How to Use git commit to make the changes
+git commit -m "Message"
+#but before using this
+use git status to check which changes to be commited and which not
+#Use git add or rm to update them
+#Rest all to not add in the commit
+#If you do a mistake in adding use git reset and if a problem you can revert the changes using git checkout <file name>
+#For addding all the files in the commit use git add .
+git add <file name>
+#git commit 
+#Now give the message and now type colon and write wq or qa i.e. vim command 
+
+
+#Most important reverting a commit and showing it as a commit use -> git revert
+#If you do not want it show it as a commit, you can revert the last commit and not show it as a commit using -> git reset --hard HEAD~1
+#Or git reset --hard ORIG_HEAD
+#Or git reset --merge ORIG_HEAD
+
+#%% How to revert the git commit changes 
+#Use git revert
+
+#%% Making a directory a git repository 
+#Use git init command
+
+#%% For getting the configuration details
+#use git config --list
+
+#%% Push and Pull
+# We use origin to specify the remote server instead of typing the whole URL
+# Push is to push the changes and commits to the remote server
+# Pull is use to update the local repositry with the one on the remote server
+# Question is can we pull changes from some another URL?
+
+#Use stackoverflow and the youtube channel of git tutorials
+
+#%% Done making the file (Used shift+ins to copy it from the sublime text editor)
+
